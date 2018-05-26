@@ -2,8 +2,8 @@
 #define YAMPL_PIPE_SIMPLECLIENTSOCKET_H
 
 #include "yampl/generic/SimpleClientSocket.h"
-#include "yampl/pipe/ProducerSocket.h"
-#include "yampl/pipe/ConsumerSocket.h"
+#include "ProducerSocket.h"
+#include "ConsumerSocket.h"
 
 namespace yampl{
 namespace pipe{

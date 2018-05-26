@@ -3,7 +3,7 @@
 #include <iostream>
 
 #include "yampl/generic/ServerSocketBase.h"
-#include "yampl/pipe/SimpleServerSocket.h"
+#include "SimpleServerSocket.h"
 
 namespace yampl{
 namespace pipe{

@@ -1,7 +1,7 @@
 #ifndef YAMPL_PIPE_CONSUMERSOCKET_H
 #define YAMPL_PIPE_CONSUMERSOCKET_H
 
-#include "yampl/pipe/PipeSocketBase.h"
+#include "PipeSocketBase.h"
 
 namespace yampl{
 namespace pipe{

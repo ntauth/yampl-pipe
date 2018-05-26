@@ -2,7 +2,7 @@
 #define YAMPL_PIPE_CLIENTSOCKET_H
 
 #include "yampl/generic/ClientSocket.h"
-#include "yampl/pipe/SimpleClientSocket.h"
+#include "SimpleClientSocket.h"
 
 namespace yampl {
     namespace pipe {

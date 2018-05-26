@@ -13,6 +13,7 @@ if (WITH_PIPE_PLUGIN)
             PROPERTIES
             LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/plugins/yampl-shm"
     )
+    target_compile_options(yampl-pipe PRIVATE "-Wno-terminate")
 
     install(TARGETS yampl-pipe
             LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/plugins/yampl-pipe
