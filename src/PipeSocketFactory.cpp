@@ -1,8 +1,8 @@
 #include "yampl/Exceptions.h"
 
-#include "yampl/pipe/SocketFactory.h"
-#include "yampl/pipe/ServerSocket.h"
-#include "yampl/pipe/ClientSocket.h"
+#include "SocketFactory.h"
+#include "ServerSocket.h"
+#include "ClientSocket.h"
 
 namespace yampl
 {

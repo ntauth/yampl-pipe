@@ -13,7 +13,7 @@
 #include <algorithm>
 #include <tr1/functional>
 
-#include "yampl/pipe/PipeSocketBase.h"
+#include "PipeSocketBase.h"
 #include "yampl/utils/Poller.h"
 
 using namespace std;
