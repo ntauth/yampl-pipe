@@ -1,5 +1,5 @@
 # YAMPL-PIPE
-if (WITH_PLUGIN_PIPE)
+if (NOT DEFINED WITH_PLUGIN_PIPE OR WITH_PLUGIN_PIPE)
     add_library(yampl-pipe SHARED
             ${CMAKE_CURRENT_LIST_DIR}/src/PipeSocketBase.cpp
             ${CMAKE_CURRENT_LIST_DIR}/src/PipeSocketFactory.cpp
