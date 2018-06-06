@@ -16,6 +16,6 @@ if (NOT DEFINED WITH_PLUGIN_PIPE OR WITH_PLUGIN_PIPE)
     target_compile_options(yampl-pipe PRIVATE "-Wno-terminate")
 
     install(TARGETS yampl-pipe
-            LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/plugins/yampl-pipe
+            LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/plugins
     )
 endif()
